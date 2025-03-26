@@ -1,48 +1,46 @@
+/* General Page Styles */
 body {
+    background-color: #f9f9f9; /* Light background for better contrast */
+    color: #333333; /* Darker text for better readability */
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
 }
-#hero {
-    background: url('hero.jpg') no-repeat center center/cover;
-    height: 100vh;
-    color: #fff;
-    text-align: center;
-    padding-top: 20%;
+
+/* Header Styles */
+h1, h2, h3 {
+    color: #2c3e50; /* Darker blue for headers */
 }
-.cta-button {
-    padding: 12px 24px;
-    background-color: #ff6f61;
-    color: white;
-    text-decoration: none;
+
+/* Button Styles */
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
-section {
-    padding: 50px 20px;
-    text-align: center;
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
 }
-.feature-item, .pricing-item {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+/* Link Styles */
+a {
+    color: #007BFF; /* Blue links */
+    text-decoration: none;
 }
-form {
-    max-width: 500px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+
+a:hover {
+    text-decoration: underline;
 }
-input, textarea, button {
-    margin-top: 10px;
-    padding: 10px;
-    width: 100%;
+
+/* Form Styles */
+input, textarea {
+    background-color: #ffffff; /* White background for inputs */
+    color: #333333;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
 }
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
+
